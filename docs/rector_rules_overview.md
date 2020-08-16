@@ -6775,7 +6775,7 @@ Removes mockery close from test classes
 
 ### `MockeryCreateMockToProphizeRector`
 
-- class: [`Rector\MockeryToProphecy\Rector\MethodCall\MockeryCreateMockToProphizeRector`](/../master/rules/mockery-to-prophecy/src/Rector/MethodCall/MockeryCreateMockToProphizeRector.php)
+- class: [`Rector\MockeryToProphecy\Rector\ClassMethod\MockeryCreateMockToProphizeRector`](/../master/rules/mockery-to-prophecy/src/Rector/MethodCall/MockeryCreateMockToProphizeRector.php)
 
 Changes mockery mock creation to Prophesize
 
