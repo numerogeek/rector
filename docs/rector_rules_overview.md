@@ -4841,7 +4841,7 @@ return function (ContainerConfigurator $containerConfigurator) : void {
 
 ### `ArgumentRemoverRector`
 
-- class: [`Rector\Generic\Rector\Argument\ArgumentRemoverRector`](/../master/rules/generic/src/Rector/Argument/ArgumentRemoverRector.php)
+- class: [`Rector\Generic\Rector\ClassMethod\ArgumentRemoverRector`](/../master/rules/generic/src/Rector/Argument/ArgumentRemoverRector.php)
 - [test fixtures](/../master/rules/generic/tests/Rector/Argument/ArgumentRemoverRector/Fixture)
 
 Removes defined arguments in defined methods and their calls.
@@ -4850,7 +4850,7 @@ Removes defined arguments in defined methods and their calls.
 <?php
 
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
-use Rector\Generic\Rector\Argument\ArgumentRemoverRector;
+use Rector\Generic\Rector\ClassMethod\ArgumentRemoverRector;
 
 return function (ContainerConfigurator $containerConfigurator) : void {
     $services = $containerConfigurator->services();
